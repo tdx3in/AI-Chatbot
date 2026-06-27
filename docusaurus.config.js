@@ -14,11 +14,11 @@ const config = {
   url: 'https://tdx3in.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Sprinklr-AI/',
+  baseUrl: '/AI-Chatbot/',
   trailingSlash: true,
   // GitHub pages deployment config.
   organizationName: 'tdx3in',
-  projectName: 'Sprinklr-AI',
+  projectName: 'AI-Chatbot',
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'warn',
@@ -44,7 +44,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl:
-            'https://github.com/tdx3in/Sprinklr-AI/tree/main/',
+            'https://github.com/tdx3in/AI-Chatbot/tree/main/',
         },
         blog: false,
         theme: {
@@ -72,7 +72,7 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://github.com/tdx3in/Sprinklr-AI',
+            href: 'https://github.com/tdx3in/AI-Chatbot',
             label: 'GitHub',
             position: 'right',
           },
@@ -103,7 +103,7 @@ const config = {
             items: [
               {
                 label: 'GitHub Issues',
-                href: 'https://github.com/tdx3in/Sprinklr-AI/issues',
+                href: 'https://github.com/tdx3in/AI-Chatbot/issues',
               },
             ],
           },
