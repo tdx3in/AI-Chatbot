@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksprinklr_ai=self.webpackChunksprinklr_ai||[]).push([[634],{192(r,s,e){e.r(s),e.d(s,{default:()=>a});e(6540);var n=e(6347),u=e(4848);function a(){return(0,u.jsx)(n.rd,{to:"/docs/"})}}}]);
