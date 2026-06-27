@@ -22,12 +22,13 @@ const config = {
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
   
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   
-
-  
-
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is in Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -85,16 +86,16 @@ const config = {
             title: 'Documentation',
             items: [
               {
-                label: 'Getting Started',
-                to: '/docs/basics',
+                label: 'Workforce Management',
+                to: '/docs/Workforce_Management_Overview__Sprinklr_Help_Center',
               },
               {
-                label: 'Installation Guide',
-                to: '/docs/install-configure',
+                label: 'Manage Shifts',
+                to: '/docs/Manage_Shifts_in_Sprinklr_WFM__Sprinklr_Help_Center',
               },
               {
-                label: 'Troubleshooting',
-                to: '/docs/troubleshooting',
+                label: 'Manage Activities',
+                to: '/docs/Manage_Activities_in_Sprinklr_WFM__Sprinklr_Help_Center',
               },
             ],
           },
@@ -108,7 +109,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Home Printer Documentation. All rights reserved.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Sprinklr AI Documentation. All rights reserved.`,
       },
       prism: {
         theme: require('prism-react-renderer').themes.github,

@@ -15,29 +15,29 @@ const sidebars = {
     'index',
     {
       type: 'category',
-      label: 'Getting Started',
+      label: 'Workforce Management Overview',
       collapsed: false,
       items: [
-        'basics',
-        'features',
+        'Workforce_Management_Overview__Sprinklr_Help_Center',
+        'Standard_Workforce_Manager_Persona_App__Sprinklr_Help_Center',
       ],
     },
     {
       type: 'category',
-      label: 'Setup & Configuration',
+      label: 'Shifts & Bidding',
       collapsed: false,
       items: [
-        'install-configure',
-        'settings-reference',
+        'Manage_Shifts_in_Sprinklr_WFM__Sprinklr_Help_Center',
+        'Manage_Shift_Bidding__Sprinklr_Help_Center',
       ],
     },
     {
       type: 'category',
-      label: 'Maintenance & Support',
+      label: 'Activities & Presets',
       collapsed: false,
       items: [
-        'maintenance',
-        'troubleshooting',
+        'Manage_Activities_in_Sprinklr_WFM__Sprinklr_Help_Center',
+        'Manage_Presets__Sprinklr_Help_Center',
       ],
     },
   ],
